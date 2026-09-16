@@ -1,6 +1,6 @@
-
+print("GROUP BY : KEVIN MANDAL AND MERCADO EXECLE")
 print("=" * 40)
-print("             TECH STORE")
+print("               TECH STORE")
 print("=" * 40)
 
 print("\nMENU STORE")
