@@ -1,15 +1,17 @@
+
 print("=" * 40)
 print("             TECH STORE")
 print("=" * 40)
 
 print("\nMENU STORE")
-print("[K] Keyboard - 600")
-print("[M] Mouse - 400")
-print("[MT] Monitor - 1000")
-print("[S] System Unit - 3000")
+print("[K]  Keyboard    - 600")
+print("[M]  Mouse       - 400")
+print("[MT] Monitor     - 1000")
+print("[S]  System Unit - 3000")
+print("[H]  Headset     - 300")
+print("[MP] Mouse Pad   - 100")
 print("=" * 40)
 print("NOTE: STUDENT HAS 30% AND ADULT HAS 10%!")
-
 
 Name = input("Enter your Name: ")
 Product1 = input("Enter First Product Code: ").upper()
@@ -30,6 +32,14 @@ elif Product1 == "MT":
 elif Product1 == "S":
     price1 = 3000
     product1 = "System Unit"
+
+elif Product1 == "H":
+    price1 = 300
+    product1 = "Headset"
+
+elif Product1 == "MP":
+    price1 = 100
+    product1 = "MousePad"
 
 else:
     print("INVALID PRODUCT!")
@@ -52,6 +62,14 @@ elif Product2 == "MT":
 elif Product2 == "S":
     price2 = 3000
     product2 = "System Unit"
+
+elif Product2 == "H":
+    price2 = 300
+    product2 = "Headset"
+
+elif Product2 == "MP":
+    price2 = 100
+    product2 = "MousePad"
 
 else:
     price2 = 0
@@ -76,6 +94,14 @@ elif Product3 == "MT":
 elif Product3 == "S":
     price3 = 3000
     product3 = "System Unit"
+
+elif Product3 == "H":
+    price3 = 300
+    product3  = "Headset"
+
+elif Product3 == "MP":
+    price3 = 100
+    product3 = "MousePad"
 
 else:
     price3 = 0
